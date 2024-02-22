@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div class="space">
+        <div class="container">
+            <div class="heading">
+                <h1>Job Application</h1>
+                <h3>(Web)</h3>
+            </div>
+        
+            <div class="row">
+                <div>
+                    <p>First Name</p>
+                    <input type="text" placeholder="  Enter First Name..." class="input">
+                </div>
+                <div>
+                    <p>Last Name</p>
+                    <input type="text" placeholder="  Enter Second Name..." class="input">
+                </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <p>Email</p>
+                    <input type="text" placeholder="  Enter Email" class="input">
+                </div>
+                <div>
+                    <p>Job Role</p>
+                    <select id="Job-role" class="select">
+                        <option value="#">  Select Job Role</option>
+                        <option value="#">Frontend developer</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" class="address" cols="50" rows="3" placeholder=" Enter Address"></textarea>
+            </div>
+
+            <div class="row">
+                <div class=>
+                    <p>City</p>
+                    <input type="text" placeholder="  Enter city name..." class="input">
+                </div>
+               <div>
+                    <p>Pincode</p>
+                    <input type="number" placeholder="  Enter Pincode" class="input">
+               </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <p>Date</p>
+                    <input type="date" value="2024-22-2" class="date">
+                </div>
+                <div>
+                    <P>Upload Your CV</P>
+                    <div class="file">
+                        <input type="file" name="upload" id="upload">
+                    </div>
+                </div>
+            </div>
+
+            <div class="button">
+                <input type="button" value="Apply Now" id="button">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

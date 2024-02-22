@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(204, 204, 204);
+    
+}
+
+.space {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 350px 30px 350px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    align-items: first baseline;
+}
+
+h1, h3 {
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    margin-left: 5px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+p {
+    margin-bottom: 5px;
+}
+
+.address {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+select, .file, .date {
+    width: 250px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+}
+
+#upload {
+    margin-left: 5px;
+}
+
+.button {
+    text-align: end;
+    padding-top: 1.5rem;
+    
+}
+
+#button {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+
+#button:hover {
+    background-color: #ccc;
+    color: black;
+}
